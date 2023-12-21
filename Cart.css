@@ -1,0 +1,55 @@
+/* src/components/Cart.css */
+.cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .cart-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .cart-table img {
+    max-width: 50px;
+    height: auto;
+  }
+  
+  .remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .delete-cart-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
